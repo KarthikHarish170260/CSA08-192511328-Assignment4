@@ -79,9 +79,9 @@ TASK 5.3: IMPORT SYNTAX EVALUATION & NAMESPACE COLLISION ANALYSIS
 ALTERNATIVE CONCEPT & COMPLEXITY ANALYSIS: SYS.MODULES CACHING BENCHMARK
 ================================================================================
 Empirical Import Latency Benchmark:
-  - Initial Cold Load Time (disk I/O, compilation, AST execution): 3026.10 µs (3.0261 ms)
+  - Initial Cold Load Time (disk I/O, compilation, AST execution): 4583.40 µs (4.5834 ms)
   - Subsequent Warm Import Time (O(1) sys.modules dict lookup):   0.90 µs (0.0009 ms)
-  - Speedup Factor via Python Module Cache:                      3362.3x
+  - Speedup Factor via Python Module Cache:                      5092.6x
 
 Cached Module Entries in sys.modules:
   - sys.modules['attendance'] -> <module 'attendance' from 'C:\\Users\\karthik harish\\.gemini\\antigravity\\scratch\\CSA08-192511328-Assignment4\\Task05_Four_Organisations\\org_d_python_package\\attendance\\__init__.py'>

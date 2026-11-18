@@ -136,12 +136,12 @@ Empirical Benchmark Across Problem Sizes (N registrations):
 ------------------------------------------------------------------------------------
 Registrations (N)   Set O(N) Time (ms)    List O(N^2) Time (ms)   Speedup Factor    
 ------------------------------------------------------------------------------------
-500                 0.050                 0.525                   10.4              x
-1000                0.075                 1.985                   26.5              x
-2500                0.211                 11.133                  52.7              x
-5000                0.467                 45.091                  96.5              x
-10000               0.757                 181.013                 239.1             x
-20000               1.936                 768.199                 396.9             x
+500                 0.046                 0.478                   10.4              x
+1000                0.057                 1.828                   31.9              x
+2500                0.194                 11.417                  58.9              x
+5000                0.335                 46.328                  138.3             x
+10000               0.655                 179.228                 273.7             x
+20000               1.534                 774.350                 504.8             x
 ------------------------------------------------------------------------------------
 Conclusion: At N=20,000 registrations, list deduplication degrades catastrophically
 to several seconds, while the set approach runs in single-digit milliseconds.
